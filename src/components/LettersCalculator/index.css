@@ -1,0 +1,105 @@
+/* Write your code here. */
+.bg {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 100%;
+}
+.calculatorContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 24px;
+  font-weight: bold;
+}
+.para {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+.para2 {
+  color: #1d976c;
+  font-family: 'roboto';
+  font-size: 35px;
+  font-weight: bold;
+  background-color: #ffffff;
+  height: 62px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.input {
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: #ffffff;
+  border-style: solid;
+  height: 52px;
+  width: 75%;
+  outline: none;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 24px;
+  font-weight: bold;
+}
+.imgContainer {
+  order: 1;
+}
+.calculatorContainer {
+  order: 2;
+}
+@media screen and (min-width: 768px) {
+  .imgContainer {
+    order: 2;
+  }
+  .calculatorContainer {
+    order: 1;
+  }
+  .image {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .heading {
+    font-size: 50px;
+  }
+  .para {
+    font-size: 24px;
+  }
+  .input {
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #ffffff;
+    border-style: solid;
+    height: 62px;
+    width: 75%;
+    outline: none;
+    color: #ffffff;
+    font-family: 'roboto';
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .calculatorContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
